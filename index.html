@@ -196,6 +196,7 @@
             <div class="swiper-slide"><img src="./assets/img/technology-logo/postgresql.png" class="img-fluid" alt="Postgresql" height="100"></div>
             <div class="swiper-slide"><img src="./assets/img/technology-logo/mongodb.png" class="img-fluid" alt="MongoDB" height="100"></div>
             <div class="swiper-slide"><img src="./assets/img/technology-logo/react.png" class="img-fluid" alt="React" height="100"></div>
+            <div class="swiper-slide"><img src="./assets/img/technology-logo/graphql.png" class="img-fluid" alt="GraphQL" height="100"></div>
             <div class="swiper-slide"><img src="./assets/img/technology-logo/java.png" class="img-fluid" alt="Java" height="100"></div>
             <div class="swiper-slide"><img src="./assets/img/technology-logo/php.png" class="img-fluid" alt="PHP" height="100"></div>
           </div>
@@ -226,26 +227,6 @@
           </div> -->
 
         </div>
-
-        <!-- REVIEW: Skills list in resume -->
-        <!-- <div class="section-title mt-5">
-          <h2>Highlighted Languages/Technologies</h2>
-        </div>
-        <div class="clients-slider swiper-container">
-          <div class="swiper-wrapper align-items-center">
-            <div class="swiper-slide"><img src="./assets/img/technology-logo/html.png" class="img-fluid" alt="Html"></div>
-            <div class="swiper-slide"><img src="./assets/img/technology-logo/css.png" class="img-fluid" alt="Css"></div>
-            <div class="swiper-slide"><img src="./assets/img/technology-logo/javascript.png" class="img-fluid" alt="Javascript"></div>
-            <div class="swiper-slide"><img src="./assets/img/technology-logo/node-js.png" class="img-fluid" alt="node-js" height="100"></div>
-            <div class="swiper-slide"><img src="./assets/img/technology-logo/python.png" class="img-fluid" alt="Python"></div>
-            <div class="swiper-slide"><img src="./assets/img/technology-logo/django.png" class="img-fluid" alt="Django" height="100"></div>
-            <div class="swiper-slide"><img src="./assets/img/technology-logo/postgresql.png" class="img-fluid" alt="Postgresql" height="100"></div>
-            <div class="swiper-slide"><img src="./assets/img/technology-logo/mongodb.png" class="img-fluid" alt="MongoDB" height="100"></div>
-            <div class="swiper-slide"><img src="./assets/img/technology-logo/react.png" class="img-fluid" alt="React" height="100"></div>
-          </div> -->
-          <!-- <div class="swiper-pagination"></div> -->
-        <!-- </div> -->
-
       </div>
     </section>
 
@@ -358,13 +339,13 @@
               <img src="assets/img/portfolio/covid-tracker-cover.png" class="img-fluid" alt="COVID-19 Tracker">
               <div class="portfolio-info">
                 <h4>COVID-19 Tracker Application</h4>
-                <p>Built Using: React</p>
+                <p>Built Using: React, ChartJS, COVID-19 API</p>
                 <div class="portfolio-links">
                   <a href="assets/img/portfolio/covid-tracker.png" data-gallery="portfolioGallery" class="portfolio-lightbox" 
                   title="React built COVID-19 tracker. Key Technologies: React, Hooks, Props, ChartsJS, JavaScript, CSS, Mathdroid COVID-19 API. Key Features: Numerical and chart display, country selector for bar chart/specific details, responsive design/data.">
-                  <i class="ri-zoom-in-line"></i></a>
-                  <a href="https://github.com/quincyp/covid-tracker" target="_blank" title="Visit Page"><i class="bx bxl-github"></i></a>
-                  <a href="https://quincy-react-covid19-tracker.netlify.app/" target="_blank" title="Visit Page"><i class="bx bx-link"></i></a>
+                  <i class="ri-zoom-in-line" title="View Description"></i></a>
+                  <a href="https://github.com/quincyp/covid-tracker" target="_blank" title="View GitHub"><i class="bx bxl-github"></i></a>
+                  <a href="https://quincy-react-covid19-tracker.netlify.app/" target="_blank" title="View Live Page"><i class="bx bx-link"></i></a>
                 </div>
               </div>
             </div>
@@ -376,13 +357,70 @@
               <img src="assets/img/portfolio/nextjs-crypto-cover.png" class="img-fluid" alt="Crypto Tracker">
               <div class="portfolio-info">
                 <h4>Crypto Tracker Application</h4>
-                <p>Built Using: NextJS & React</p>
+                <p>Built Using: NextJS, React, CoinGecko API</p>
                 <div class="portfolio-links">
                   <a href="assets/img/portfolio/nextjs-crypto.png" data-gallery="portfolioGallery" class="portfolio-lightbox" 
                   title="NextJS & React built crypto tracker. Key Technologies: React Hooks, Props, NextJS, JavaScript, CSS, CoinGecko API. Key Features: Scaleable current crypto data with logic, live search bar, responsive design/data, individual crypto pages with resources linking to crypto homepage and subreddit for more info.">
-                  <i class="ri-zoom-in-line"></i></a>
-                  <a href="https://github.com/quincyp/nextjs-crypto" target="_blank" title="Visit Page"><i class="bx bxl-github"></i></a>
-                  <a href="https://quincy-nextjs-crypto-tracker.netlify.app/" target="_blank" title="Visit Page"><i class="bx bx-link"></i></a>
+                  <i class="ri-zoom-in-line" title="View Description"></i></a>
+                  <a href="https://github.com/quincyp/nextjs-crypto" target="_blank" title="View GitHub"><i class="bx bxl-github"></i></a>
+                  <a href="https://quincy-nextjs-crypto-tracker.netlify.app/" target="_blank" title="View Live Page"><i class="bx bx-link"></i></a>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-6 portfolio-item filter-web">
+            <div class="portfolio-wrap">
+              <img src="assets/img/portfolio/react-chat-app-cover.png" class="img-fluid" alt="React Live Chat App">
+              <div class="portfolio-info">
+                <h4>Live Chat Application</h4>
+                <p>Built Using: React, Sockets, ChatEngine</p>
+                <p>Login Using</p>
+                <p>Username: guest</p>
+                <p>Password: demo</p>
+                <div class="portfolio-links">
+                  <a href="assets/img/portfolio/react-chat-app.png" data-gallery="portfolioGallery" class="portfolio-lightbox"
+                  title="React built Live Chat App. Key Technologies: React Hooks, Props, JavaScript, CSS, Sockets, Auth, Rest APIs, ChatEngine. Key Features: live chat, user online indicator, user last-read receipts, photo upload, responsive design.">
+                  <i class="ri-zoom-in-line" title="View Description"></i></a>
+                  <a href="https://github.com/quincyp/react-chat-app" target="_blank" title="View GitHub"><i class="bx bxl-github"></i></a>
+                  <a href="https://quincy-react-chat-app.netlify.app/" target="_blank" title="View Live Page"><i class="bx bx-link"></i></a>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-6 portfolio-item filter-web">
+            <div class="portfolio-wrap">
+              <img src="assets/img/portfolio/project-mediahub-cover.png" class="img-fluid" alt="Project Media Hub">
+              <div class="portfolio-info">
+                <h4>Media Hub Application</h4>
+                <p>Built Using: MongoDB, Express, NodeJS, BcryptJS, TMDB API</p>
+                <p>Login Using</p>
+                <p>Username: demo_user@gmail.com</p>
+                <p>Password: DemoUser1!</p>
+                <div class="portfolio-links">
+                  <a href="assets/img/portfolio/project-mediahub.png" data-gallery="portfolioGallery" class="portfolio-lightbox" 
+                  title="Project Media Hub, a movie social review site. Key Technologies: HTML, CSS, JavaScript, NodeJS, MongoDB / Mongoose, Express, EJS. Key Features: Users / Login Authentication, profile creation, full CRUD functionality for movies and comments, responsive design, TheMovideDatabase API for auto completion of details such as Movie Titles, Images, Descriptions, Year, Thumbnails, etc.">
+                  <i class="ri-zoom-in-line" title="View Description"></i></a>
+                  <a href="https://github.com/quincyp/project-mediahub" target="_blank" title="View GitHub"><i class="bx bxl-github"></i></a>
+                  <a href="https://project-mediahub.herokuapp.com/movies/" target="_blank" title="View Live Page"><i class="bx bx-link"></i></a>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-6 portfolio-item filter-web">
+            <div class="portfolio-wrap">
+              <img src="assets/img/portfolio/project-wayfarer.png" class="img-fluid" alt="">
+              <div class="portfolio-info">
+                <h4>Wayfarer Travel Application</h4>      
+                <p>Built Using: Django, PostgreSQL, AWS</p>  
+                <div class="portfolio-links">
+                  <a href="assets/img/portfolio/project-wayfarer.png" data-gallery="portfolioGallery" class="portfolio-lightbox"
+                  title="Project Wayfarer, a travel blog/review site built to select and interact with socially per client wireframe/specifications. Key Technologies: HTML, CSS, Python, Django, SQL / PostgreSQL. Key Features: Users/Login Authentication, email verification, profile setup/picture upload, and full CRUD functionality.">
+                  <i class="ri-zoom-in-line" title="View Description"></i></a>
+                  <a href="https://github.com/quincyp/wayfarer-app" target="_blank" title="View GitHub"><i class="bx bxl-github"></i></a>
+                  <a href="https://wayfarer-119.herokuapp.com/" target="_blank" title="View Live Page"><i class="bx bx-link"></i></a>
                 </div>
               </div>
             </div>
@@ -394,70 +432,19 @@
               <img src="assets/img/portfolio/project-tamagotchi.png" class="img-fluid" alt="Project Tamagotchi">
               <div class="portfolio-info">
                 <h4>Tamagotchi Inspired Game</h4>
+                <p>Built Using: Javascript</p>
+                <p>My first project!</p>
                 <div class="portfolio-links">
                   <a href="assets/img/portfolio/project-tamagotchi.png" data-gallery="portfolioGallery" class="portfolio-lightbox" 
                   title="Project Tamagotchi, Inspired by the 90's fad Tamagotchi, the goal of the game is to keep the pet healthy and alive. The game features a retro video game aesthetic, pet naming/evolution, responsive status meters, event/status triggered background music, sound effect feedback, animation feedback, and responsive design. Built utilizing HTML, CSS, JavaScript.">
-                  <i class="ri-zoom-in-line"></i></a>
-                  <a href="https://github.com/quincyp/project-tamagotchi" target="_blank" title="Visit Page"><i class="bx bxl-github"></i></a>
-                  <a href="https://quincyp.github.io/project-tamagotchi/" target="_blank" title="Visit Page"><i class="bx bx-link"></i></a>
+                  <i class="ri-zoom-in-line" title="View Description"></i></a>
+                  <a href="https://github.com/quincyp/project-tamagotchi" target="_blank" title="View GitHub"><i class="bx bxl-github"></i></a>
+                  <a href="https://quincyp.github.io/project-tamagotchi/" target="_blank" title="View Live Page"><i class="bx bx-link"></i></a>
                 </div>
               </div>
             </div>
           </div>
 
-          <div class="col-lg-4 col-md-6 portfolio-item filter-web">
-            <div class="portfolio-wrap">
-              <img src="assets/img/portfolio/react-chat-app-cover.png" class="img-fluid" alt="React Live Chat App">
-              <div class="portfolio-info">
-                <h4>React Live Chat Application</h4>
-                <p>Login Using</p>
-                <p>Username: guest</p>
-                <p>Password: demo</p>
-                <div class="portfolio-links">
-                  <a href="assets/img/portfolio/react-chat-app.png" data-gallery="portfolioGallery" class="portfolio-lightbox"
-                  title="React built Live Chat App. Key Technologies: React Hooks, Props, JavaScript, CSS, Sockets, Auth, Rest APIs, ChatEngine. Key Features: live chat, user online indicator, user last-read receipts, photo upload, responsive design.">
-                  <i class="ri-zoom-in-line"></i></a>
-                  <a href="https://github.com/quincyp/react-chat-app" target="_blank" title="Visit Page"><i class="bx bxl-github"></i></a>
-                  <a href="https://quincy-react-chat-app.netlify.app/" target="_blank" title="More Details"><i class="bx bx-link"></i></a>
-                </div>
-              </div>
-            </div>
-          </div>
-
-          <div class="col-lg-4 col-md-6 portfolio-item filter-web">
-            <div class="portfolio-wrap">
-              <img src="assets/img/portfolio/project-mediahub-cover.png" class="img-fluid" alt="Project Media Hub">
-              <div class="portfolio-info">
-                <h4>Media Hub Application</h4>
-                <p>Login Using</p>
-                <p>Username: demo_user@gmail.com</p>
-                <p>Password: DemoUser1!</p>
-                <div class="portfolio-links">
-                  <a href="assets/img/portfolio/project-mediahub.png" data-gallery="portfolioGallery" class="portfolio-lightbox" 
-                  title="Project Media Hub, a movie social review site. Key Technologies: HTML, CSS, JavaScript, NodeJS, MongoDB / Mongoose, Express, EJS. Key Features: Users / Login Authentication, profile creation, full CRUD functionality for movies and comments, responsive design, TheMovideDatabase API for auto completion of details such as Movie Titles, Images, Descriptions, Year, Thumbnails, etc.">
-                  <i class="ri-zoom-in-line"></i></a>
-                  <a href="https://github.com/quincyp/project-mediahub" target="_blank" title="Visit Page"><i class="bx bxl-github"></i></a>
-                  <a href="https://project-mediahub.herokuapp.com/movies/" target="_blank" title="More Details"><i class="bx bx-link"></i></a>
-                </div>
-              </div>
-            </div>
-          </div>
-
-          <div class="col-lg-4 col-md-6 portfolio-item filter-web">
-            <div class="portfolio-wrap">
-              <img src="assets/img/portfolio/project-wayfarer.png" class="img-fluid" alt="">
-              <div class="portfolio-info">
-                <h4>Wayfarer Travel Application</h4>        
-                <div class="portfolio-links">
-                  <a href="assets/img/portfolio/project-wayfarer.png" data-gallery="portfolioGallery" class="portfolio-lightbox"
-                  title="Project Wayfarer, a travel blog/review site built to select and interact with socially per client wireframe/specifications. Key Technologies: HTML, CSS, Python, Django, SQL / PostgreSQL. Key Features: Users/Login Authentication, email verification, profile setup/picture upload, and full CRUD functionality.">
-                  <i class="ri-zoom-in-line"></i></a>
-                  <a href="https://github.com/quincyp/wayfarer-app" target="_blank" title="Visit Page"><i class="bx bxl-github"></i></a>
-                  <a href="https://wayfarer-119.herokuapp.com/" target="_blank" title="Visit Page"><i class="bx bx-link"></i></a>
-                </div>
-              </div>
-            </div>
-          </div>
 
         </div>
 
